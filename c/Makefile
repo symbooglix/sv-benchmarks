@@ -6,7 +6,6 @@ SKIP_LEVEL := 1
 # Add directories to build. Make sure that you add a single directory
 # per line so that it easy to comment out a single directory
 DIRS += array-examples
-DIRS += array-memsafety
 DIRS += bitvector
 DIRS += bitvector-loops
 DIRS += bitvector-regression
@@ -25,12 +24,8 @@ DIRS += ldv-linux-3.12-rc1
 DIRS += ldv-linux-3.16-rc1
 DIRS += ldv-linux-3.4-simple
 DIRS += ldv-linux-3.7.3
-DIRS += ldv-linux-4.2-rc1
-DIRS += ldv-memsafety
-DIRS += ldv-races
 DIRS += ldv-regression
 DIRS += ldv-validator-v0.6
-DIRS += ldv-validator-v0.8
 DIRS += list-ext-properties
 DIRS += list-properties
 DIRS += locks
@@ -53,20 +48,15 @@ DIRS += pthread-lit
 DIRS += pthread-wmm
 DIRS += recursive
 DIRS += recursive-simple
-DIRS += reducercommutativity
 DIRS += regression
 DIRS += seq-mthreaded
 DIRS += seq-pthread
-DIRS += signedintegeroverflow-regression
 DIRS += ssh
 DIRS += ssh-simplified
 DIRS += systemc
 DIRS += termination-crafted
 DIRS += termination-crafted-lit
-DIRS += termination-libowfat
 DIRS += termination-memory-alloca
 DIRS += termination-numeric
-DIRS += termination-restricted-stroeder-15
-DIRS += termination-stroeder-2015
 
 include $(LEVEL)/Makefile.config
