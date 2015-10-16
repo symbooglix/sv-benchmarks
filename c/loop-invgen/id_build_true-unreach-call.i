@@ -7,7 +7,7 @@ void __VERIFIER_assert(int cond) {
   return;
 }
 int __VERIFIER_nondet_int();
-void main() {
+int main() {
   int offset, length, nlen;
   int i, j;
   for (i=0; i<nlen; i++) {
@@ -16,5 +16,5 @@ void main() {
       __VERIFIER_assert(nlen-1-i < nlen);
     }
   }
-  return;
+  return 0;
 }
