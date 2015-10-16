@@ -8,7 +8,7 @@ void __VERIFIER_assert(int cond) {
 }
 int INFINITY = 899;
 unsigned int __VERIFIER_nondet_uint();
-void main(){
+int main(){
   int nodecount = __VERIFIER_nondet_int();
   int edgecount = __VERIFIER_nondet_int();
   __VERIFIER_assume(0 <= nodecount <= 4);
@@ -48,7 +48,7 @@ void main(){
       y = Source[i];
       if(distance[x] > distance[y] + Weight[i])
  {
-   return;
+   return 0;
  }
     }
 
@@ -57,4 +57,5 @@ void main(){
       __VERIFIER_assert(distance[i]>=0);
     }
 
+  return 0;
 }

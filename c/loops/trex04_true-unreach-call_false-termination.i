@@ -7,7 +7,7 @@ void __VERIFIER_assert(int cond) {
   return;
 }
 
-int __VERIFIER_nondet_bool();
+_Bool  __VERIFIER_nondet_bool();
 
 void foo()
 {

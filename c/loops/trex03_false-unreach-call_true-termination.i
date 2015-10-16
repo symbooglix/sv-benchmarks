@@ -9,7 +9,7 @@ void __VERIFIER_assert(int cond) {
 
 
 extern unsigned int __VERIFIER_nondet_uint();
-extern int __VERIFIER_nondet_bool();
+extern _Bool __VERIFIER_nondet_bool();
 
 int main()
 {
