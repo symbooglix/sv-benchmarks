@@ -134,8 +134,10 @@ error_no_hp_slot:
  return rc;
 }
 
-void main() {
+int main() {
  ebda_rsrc_controller();
  if(!used_tmp_slot)
   ((freed_tmp_slot) ? (0) : __blast_assert ());
+
+ return 0;
 }

@@ -35,7 +35,8 @@ void firstFunction()
  __VERIFIER_assert(p >= 0);
 }
 
-void main()
+int main()
 {
  firstFunction();
+ return 0;
 }
