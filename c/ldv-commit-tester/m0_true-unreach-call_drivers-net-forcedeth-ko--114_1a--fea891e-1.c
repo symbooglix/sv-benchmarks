@@ -18401,7 +18401,7 @@ extern int __VERIFIER_nondet_int(void) ;
 #line 6262 "/work/vladimir/commit-test/commit-test-work/task-072--linux-stable--dir/work/current--X--drivers/net/forcedeth.ko--X--defaultlinux-stable-fea891e-1--X--114_1a--X--cpachecker/linux-stable-fea891e-1/csd_deg_dscv/11/dscv_tempdir/dscv/ri/114_1a/drivers/net/forcedeth.c.prepared"
 int LDV_IN_INTERRUPT  ;
 #line 6265 "/work/vladimir/commit-test/commit-test-work/task-072--linux-stable--dir/work/current--X--drivers/net/forcedeth.ko--X--defaultlinux-stable-fea891e-1--X--114_1a--X--cpachecker/linux-stable-fea891e-1/csd_deg_dscv/11/dscv_tempdir/dscv/ri/114_1a/drivers/net/forcedeth.c.prepared"
-void main(void) 
+int main(void) 
 { 
   struct net_device *var_group1 ;
   struct ethtool_drvinfo *var_group2 ;
@@ -19004,7 +19004,7 @@ void main(void)
 #line 51731
   ldv_check_final_state();
 #line 51734
-  return;
+  return 0;
 }
 }
 #line 51738 "/work/vladimir/commit-test/commit-test-work/task-072--linux-stable--dir/work/current--X--drivers/net/forcedeth.ko--X--defaultlinux-stable-fea891e-1--X--114_1a--X--cpachecker/linux-stable-fea891e-1/csd_deg_dscv/11/dscv_tempdir/dscv/ri/114_1a/drivers/net/forcedeth.c.prepared"
