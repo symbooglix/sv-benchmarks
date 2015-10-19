@@ -19,6 +19,7 @@ DIRS += ldv-linux-3.16-rc1
 DIRS += ldv-linux-3.4-simple
 DIRS += ldv-linux-3.7.3
 DIRS += ldv-regression
+DIRS += ldv-validator-v0.6
 DIRS += list-properties
 DIRS += locks
 DIRS += loop-acceleration
