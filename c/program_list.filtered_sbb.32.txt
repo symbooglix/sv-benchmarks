@@ -1,3 +1,5 @@
+# These are the compiled benchmarks given to a 32-bit build
+# of KLEE.
 eca-rers2012/Problem13_label42_true-unreach-call.oc
 product-lines/elevator_spec3_product17_true-unreach-call.cil.oc
 eca-rers2012/Problem02_label15_true-unreach-call.oc
